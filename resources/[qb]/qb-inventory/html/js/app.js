@@ -764,6 +764,18 @@ function FormatItemInfo(itemData, dom) {
         } else if (itemData.name == "stickynote") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html("<p>" + itemData.info.label + "</p><p style=\"font-size:11px\"><b>Weight: </b>" + itemData.weight + " | <b>Amount: </b> " + itemData.amount + " | <b>Quality: </b> " + "<a style=\"font-size:11px;color:green\">" + Math.floor(itemData.info.quality) + "</a>");
+        } else if (itemData.name == "coca_gascontainer") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "</span></p><p><strong>Gas Filled: </b> " + "<a style=\"font-size:bold;color:green\">" +
+                itemData.info.gasfilled +"</a>"
+            );
+        } else if (itemData.name == "water_can") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Uses Remaining: </strong><span>" + "<a style=\"font-size:11px;color:#00CDF7\">" +
+                itemData.info.uses + "</a>"
+            );
         } else if (itemData.name == "moneybag") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(

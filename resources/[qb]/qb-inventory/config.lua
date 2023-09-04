@@ -2,7 +2,7 @@ Config = {}
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
-Config.MaxInventoryWeight = 120000 -- Max weight a player can carry (default 120kg, written in grams)
+Config.MaxInventoryWeight = 160000 -- Max weight a player can carry (default 120kg, written in grams)
 Config.MaxInventorySlots = 41 -- Max inventory slots for a player
 
 Config.CleanupDropTime = 15 * 60 -- How many seconds it takes for drops to be untouched before being deleted
@@ -218,7 +218,7 @@ Config.CraftingItems = {
     },
 }
 
-Config.AttachmentCraftingLocation = vector3(88.91, 3743.88, 40.77) -- Only needed if not using target
+Config.AttachmentCraftingLocation = vector3(2797.08, 1662.9, 20.79) -- Only needed if not using target
 
 Config.AttachmentCrafting = {
     ["items"] = {

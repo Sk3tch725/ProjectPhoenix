@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Sk3tchPlays",
+    "master": true,
+    "password_hash": "$2a$11$lHuU93WaxjFDwZi7MsODNOWzcUxjg577tfzQFX4FLrUC0/BeVVuti",
+    "providers": {
+      "citizenfx": {
+        "id": "Sk3tchPlays",
+        "identifier": "fivem:11487262",
+        "data": {
+          "sub": "fa1efc940e389a3ad6e691401db604e4",
+          "nameid": "https://forum.cfx.re/internal/user/11487262",
+          "name": "Sk3tchPlays",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/sk3tchplays/256/3606249_2.png",
+          "profile": "https://forum.cfx.re/u/Sk3tchPlays"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "Barb",
+    "master": false,
+    "password_hash": "$2a$11$Zl508T1yZ9nKJHQhk.OOfu62paEReu99dRowVfHm.Rj/dTU6jei5y",
+    "providers": {
+      "citizenfx": {
+        "id": "Barboat",
+        "identifier": "fivem:1871334",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6645 Starting - 8/30/2023, 10:51:24 AM
+================================================================
+[10:51:45][Sk3tchPlays] created admins file
+[10:52:05][Sk3tchPlays] Changing global/fxserver settings via setup stepper.
+[10:54:24][Sk3tchPlays] Changing fxRunner settings.
+[10:54:47][Sk3tchPlays] Changing monitor settings.
+[10:55:03][Sk3tchPlays] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6645 Starting - 8/30/2023, 11:24:09 AM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6645 Starting - 8/30/2023, 11:28:00 AM
+================================================================
+[11:28:31][Sk3tchPlays] logged in from 127.0.0.1 via citizenfx
+[11:30:32][Sk3tchPlays] logged in via in-game ui
+[11:51:12][Sk3tchPlays] executed "RESTART SERVER"
+[12:00:00][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[16:08:36][Sk3tchPlays] executed "RESTART SERVER"
+[16:50:24][Sk3tchPlays] executed "RESTART SERVER"
+[16:52:20][Sk3tchPlays] executed "ensure "cfx-gabz-lost""
+[17:11:51][Sk3tchPlays] executed "ensure "qb-management""
+[17:12:13][Sk3tchPlays] executed "RESTART SERVER"
+[17:28:13][Sk3tchPlays] executed "RESTART SERVER"
+[17:32:18][Sk3tchPlays] executed "RESTART SERVER"
+[17:34:20][Sk3tchPlays] executed "RESTART SERVER"
+[17:36:54][Sk3tchPlays] executed "RESTART SERVER"
+[18:00:06][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:30:08][Sk3tchPlays] executed "RESTART SERVER"
+[18:32:30][Sk3tchPlays] executed "RESTART SERVER"
+[18:49:22][Sk3tchPlays] executed "RESTART SERVER"
+[19:42:49][Sk3tchPlays] executed "ensure "jim-mining""
+[00:00:12][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[06:00:18][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[09:04:54][Sk3tchPlays] logged in via in-game ui
+[10:05:56][Sk3tchPlays] executed "RESTART SERVER"
+[10:34:41][Sk3tchPlays] executed "RESTART SERVER"
+[10:36:47][Sk3tchPlays] logged in via in-game ui
+[11:41:41][Sk3tchPlays] logged in from 127.0.0.1 via citizenfx
+[11:41:42][Sk3tchPlays] logged in via in-game ui
+[11:41:46][Sk3tchPlays] executed "ensure "qb-shops""
+[12:00:24][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[12:06:53][Sk3tchPlays] logged in via in-game ui
+[12:12:45][Sk3tchPlays] executed "ensure "qb-shops""
+[12:14:08][Sk3tchPlays] logged in via in-game ui
+[12:55:52][Sk3tchPlays] logged in via in-game ui
+[13:35:29][Sk3tchPlays] executed "ensure "okokCrafting""
+[18:00:30][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[21:17:54][Sk3tchPlays] executed "RESTART SERVER"
+[21:44:14][Sk3tchPlays] executed "RESTART SERVER"
+[21:52:02][Sk3tchPlays] executed "RESTART SERVER"
+[21:56:29][Sk3tchPlays] executed "RESTART SERVER"
+[23:22:16][Sk3tchPlays] executed "RESTART SERVER"
+[23:29:48][Sk3tchPlays] executed "RESTART SERVER"
+[23:42:33][Sk3tchPlays] executed "RESTART SERVER"
+[23:43:58][Sk3tchPlays] executed "RESTART SERVER"
+[00:00:36][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[00:33:30][Sk3tchPlays] executed "RESTART SERVER"
+[00:54:15][Sk3tchPlays] executed "RESTART SERVER"
+[06:00:42][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[08:01:51][Sk3tchPlays] Adding admin 'Barb'.
+[08:01:51][Barb] logged in via in-game ui
+[08:08:25][Sk3tchPlays] executed "RESTART SERVER"
+[08:09:48][Barb] logged in via in-game ui
+[08:24:30][Barb] logged in from via NUI iframe
+[08:24:46][Barb] Changing own password.
+[08:24:46][Barb] logged in via in-game ui
+[08:24:57][Barb] logged in from via NUI iframe
+[08:25:03][Barb] executed "RESTART SERVER"
+[08:26:16][Barb] logged in via in-game ui
+[12:00:48][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[18:00:53][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[00:00:58][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[02:30:42][Sk3tchPlays] logged in from 127.0.0.1 via citizenfx
+[02:31:46][Sk3tchPlays] Changing discordBot settings.
+[02:32:49][Sk3tchPlays] Changing Player Manager settings.
+[02:40:29][Sk3tchPlays] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6645 Starting - 9/2/2023, 4:20:03 AM
+================================================================
+[06:00:04][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[12:00:09][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[18:00:15][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[21:15:45][Barb] logged in via in-game ui
+[21:17:05][Barb] logged in from via NUI iframe
+[21:18:01][Barb] DM to #P. Adams: you should have your job now
+[00:00:20][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[06:00:25][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[12:00:30][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[18:00:36][SCHEDULER] Restarting server (scheduled restart at 18:00).

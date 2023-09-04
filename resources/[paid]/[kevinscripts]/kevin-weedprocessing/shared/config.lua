@@ -46,7 +46,7 @@ Config.WeedPlantSpawnProperties = {
     locations = {
         [1] = {
             spawn = true, -- if to spawn plants at this location
-            showblip = true, -- if set to true it will show a blip for the location of the field
+            showblip = false, -- if set to true it will show a blip for the location of the field
             blipsprite = 140, -- blip that is shown on the map  https://docs.fivem.net/docs/game-references/blips/
             blipcolor = 43, -- color of the blip 
             blipscale = 0.65, -- scale of the weed blip
@@ -61,7 +61,7 @@ Config.WeedPlantSpawnProperties = {
         },
         [2] = {
             spawn = true,
-            showblip = true,
+            showblip = false,
             blipsprite = 140,
             blipcolor = 43,
             blipscale = 0.65,
@@ -76,7 +76,7 @@ Config.WeedPlantSpawnProperties = {
         },
         [3] = {
             spawn = true,
-            showblip = true,
+            showblip = false,
             blipsprite = 140,
             blipcolor = 43,
             blipscale = 0.65,
@@ -91,7 +91,7 @@ Config.WeedPlantSpawnProperties = {
         },
         [4] = {
             spawn = true,
-            showblip = true,
+            showblip = false,
             blipsprite = 140,
             blipcolor = 43,
             blipscale = 0.65,
@@ -106,7 +106,7 @@ Config.WeedPlantSpawnProperties = {
         },
         [5] = {
             spawn = true,
-            showblip = true,
+            showblip = false,
             blipsprite = 140,
             blipcolor = 43,
             blipscale = 0.65,
@@ -121,7 +121,7 @@ Config.WeedPlantSpawnProperties = {
         },
         [6] = {
             spawn = true,
-            showblip = true,
+            showblip = false,
             blipsprite = 140,
             blipcolor = 43,
             blipscale = 0.65,
@@ -219,7 +219,7 @@ Config.UseableBudItems = { -- made each have their own value just in case you wa
     ['weed_plant_bud'] = {
         useprogressbar = false,
         removeamount = 2,
-        nuggetgiveamount = 5,
+        nuggetgiveamount = 6,
         nuggetitemname = 'weed_nugget'
     },
 }
@@ -257,7 +257,7 @@ Config.UseableNuggetItems = { -- made each have their own value just in case you
     },
     ['weed_nugget'] = {
         useprogressbar = false,
-        nuggetamount = 5,
+        nuggetamount = 4,
         jointitemname = 'weed_joint'
     },
 }
@@ -267,27 +267,27 @@ Config.UseableEmptyJar = { -- PS. If player does not have the amount it will not
         items = {
             ['ak_47_nugget'] = { -- obviously again the nugget items
                 minamount = 10, -- minimum amount of nuggets needed to bottle
-                maxamount = 70, -- maximum amount of nuggets needed to bottle
+                maxamount = 50, -- maximum amount of nuggets needed to bottle
             },
             ['blue_dream_nugget'] = {
                 minamount = 10,
-                maxamount = 30,
+                maxamount = 50,
             },
             ['og_kush_nugget'] = {
                 minamount = 10,
-                maxamount = 30,
+                maxamount = 50,
             },
             ['pineapple_express_nugget'] = {
                 minamount = 10,
-                maxamount = 40,
+                maxamount = 50,
             },
             ['purple_haze_nugget'] = {
                 minamount = 10,
-                maxamount = 35,
+                maxamount = 50,
             },
             ['white_widow_nugget'] = {
                 minamount = 10,
-                maxamount = 20,
+                maxamount = 50,
             },
             ['weed_nugget'] = {
                 minamount = 10,

@@ -1833,6 +1833,25 @@ Config.Garages = {
         },
 
     },
+    ['lostmc'] = {
+        ['Zone'] = {
+            ['Shape'] = { --polygon that surrounds the parking area
+                vector2(956.76458740234, -112.58590698242),
+                vector2(959.58172607422, -110.02156066895),
+                vector2(963.77746582031, -114.46647644043),
+                vector2(960.55487060547, -117.41980743408)
+            },
+            ['minZ'] = 74.15,  -- min height of the parking zone
+            ['maxZ'] = 76.22,  -- max height of the parking zone
+            debug = false,
+        },
+        label = 'The Lost MC',
+        type = 'gang',
+        vehicleCategories = {'car', 'motorcycle', 'other'},
+        drawText = 'Parking',
+        gang = 'lostmc',
+        debug = false
+    },
 }
 
 Config.HouseGarages = {} -- DO NOT TOUCH!

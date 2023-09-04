@@ -1,20 +1,24 @@
-fx_version 'cerulean'
+fx_version 'adamant'
 game 'gta5'
 
-description 'qb-loading'
-version '1.2.0'
-
+description 'Created for Wolfpack'
+version '3.0'
 
 files {
-  'assets/**',
-  'html/*'
+    '*.html',
+    'assets/**/*.*',
+    'assets/**/**/*.*'
 }
 
-loadscreen {
-  'html/index.html'
-}
-
-loadscreen_cursor 'yes'
+loadscreen 'index.html'
 loadscreen_manual_shutdown 'yes'
 
-lua54 'yes'
+client_scripts {
+    'client/main.lua',
+}
+
+server_scripts {
+    'server/main.lua',
+}
+
+lua54 "yes"

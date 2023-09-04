@@ -21,7 +21,7 @@ Config.Locations = {
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
-        [1] = vector4(448.15, -1017.4, 22.96, 19.96),
+        [1] = vector4(438.43, -991.44, 25.7, 87.9),
         [2] = vector4(448.15, -1017.4, 22.96, 19.96),
         [3] = vector4(448.15, -1017.4, 22.96, 19.96),
     },
@@ -113,6 +113,8 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["pd1"] = "2011 Crown Vic",
+
 	},
 	-- Grade 1
 	[1] = {
@@ -124,6 +126,8 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["pd1"] = "2011 Crown Vic",
+        ["Explorer"] = "2020 Explorer",
 
 	},
 	-- Grade 2
@@ -136,6 +140,12 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["pd1"] = "2011 Crown Vic",
+        ["Explorer"] = "2020 Explorer",
+        ["char"] = "Dodge Charger",
+        ["mach1rb"] = "2021 Mustang",
+        ["poldemonrb"] = "Dodge Challenger Hellcat",
+        ["zr1rb"] = "Chevy Corevette",
 	},
 	-- Grade 3
 	[3] = {
@@ -147,6 +157,12 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["pd1"] = "2011 Crown Vic",
+        ["Explorer"] = "2020 Explorer",
+        ["char"] = "Dodge Charger",
+        ["mach1rb"] = "2021 Mustang",
+        ["poldemonrb"] = "Dodge Challenger Hellcat",
+        ["zr1rb"] = "Chevy Corevette",
 	},
 	-- Grade 4
 	[4] = {
@@ -158,6 +174,13 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["pd1"] = "2011 Crown Vic",
+        ["Explorer"] = "2020 Explorer",
+        ["char"] = "Dodge Charger",
+        ["mach1rb"] = "2021 Mustang",
+        ["poldemonrb"] = "Dodge Challenger Hellcat",
+        ["zr1rb"] = "Chevy Corevette",
+
 	}
 }
 

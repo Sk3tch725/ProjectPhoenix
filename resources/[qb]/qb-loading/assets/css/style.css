@@ -1,0 +1,572 @@
+/* ------------------------- */
+/* If you have any problem contact me on fiverr for get free support. */
+/* ------------------------- */
+
+
+body {
+    background: black;
+}
+
+
+
+.volumesli {
+    position: absolute;
+    bottom: 39px;
+    right: 44%;
+}
+
+.sound-img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.discordapp.net/attachments/954781623323357215/1102586761475002388/mp3.png");
+    width: 3vw;
+    height: 3vw;
+    right: 110%;
+  }
+
+  .sound-text {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.05vw;
+    color: #e4e1d8;
+  }
+
+.volumeSlider {
+
+  outline: none; /* Remove outline */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 0%;
+  background: linear-gradient(180deg, #AEE8F5 0%, #AEE8F5 100%);
+  cursor: pointer;
+}
+
+.volumeSlider::-ms-ticks-after {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#cursor {
+    position: fixed;
+    width: 1.5vw;
+
+    z-index: 99999999999;
+    pointer-events: none;
+    user-select: none;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.bg.unblur {
+    filter: none;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: radial-gradient(circle at top right, #2d2e4e6b, #2d2e4e6b);
+    transition: opacity .5s;
+}
+
+/* -------------- */
+/* MAIN CONTAINER */
+/* -------------- */
+.overlay .container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    right: 23%;
+    top: 67px;
+    transform: perspective(1000px) rotateY(-10deg) rotateZ(-2.7deg)rotateX(-1deg);
+}
+
+/* Hide overlay */
+
+.overlay .container .video {
+    position: absolute;
+    top: 1%;
+    left: 68%;
+    transform: rotate(6.2deg);
+}
+
+.overlay .container > .video > .form-switch {
+    display: block;
+
+    user-select: none;
+
+    width: 5vw;
+    height: 1.6vw;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.overlay .container > .video > .label {
+    margin: 0;
+    margin-bottom: 0.2vw;
+
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    font-size: .6vw;
+    font-family: Poppins;
+}
+
+.overlay .container > .video > .form-switch > i {
+    display: block;
+    margin: auto;
+    width: 5vw;
+    height: 1.6vw;
+
+    background-color: #e6e6e63a;
+    border-radius: 0.5vw;
+
+    transform: skew(-20deg, 0);
+    transition: all 0.3s linear;
+}
+
+.overlay .container > .video > .left,
+.overlay .container > .video > .right {
+    position: absolute;
+    bottom: 0;
+
+    line-height: 1.6vw;
+    color: white;
+    font-size: .6vw;
+    font-family: PoppinsMedium;
+    pointer-events: none;
+
+    z-index: 99;
+}
+
+.overlay .container > .video > .left {
+    left: 12%;
+}
+
+.overlay .container > .video > .right {
+    right: 12%;
+}
+
+.overlay .container > .video > .form-switch > i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+
+    width: 50%;
+    height: 100%;
+    background-color: #AEE8F5;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 .5vw 0 #aeb3bc;
+
+    transition: all 0.2s ease-in-out;
+    transform-origin: left;
+}
+
+.overlay .container > .video > .form-switch > input { display: none; }
+
+.overlay .container > .video > .form-switch > input:active + i::after { transform: scale(1.2, 1.0); }  
+
+.overlay .container > .video > .form-switch > input:checked + i::after { transform: translate3d(100%, 0, 0) }  
+
+.overlay .container > .video > .form-switch > input:checked:active + i::after { transform: translate3d(100%, 0, 0) scale(1.2, 1.0); transform-origin: right; }  
+
+
+
+/* Team */
+
+.overlay .container > .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+    margin-left: -80vw;
+    margin-top: 28vw;
+}
+
+
+
+.overlay .container > .team .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 33.4vw;
+    height: 16.5vw;
+    overflow-x: hidden;
+}
+
+.overlay .container > .team .innercards {
+    display: flex;
+    width: 65%;
+    height: 15.5vw;
+    transform: translate3d(calc(0% - .7vw), 0, 0);
+    user-select: none;
+    transition: transform .5s;
+}
+
+.overlay .container > .team .pages {
+    display: flex;
+    margin-top: -.9vw;
+
+}
+
+.overlay .container > .team .pages > div {
+    width: .7vw;
+    height: .4vw;
+
+    margin: 0.15vw;
+
+    border-radius: 1vw;
+    background: rgba(255, 255, 255, .5);
+    transition: all .15s;
+}
+
+.overlay .container > .team .pages > div.active {
+    background: white;
+    transform: scale(1.2);
+}
+
+.overlay .container > .team .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    width: 9vw;
+    height: 80%;
+
+    margin: 0.2vw;
+
+    border-radius: 1.2vw;
+    background: linear-gradient(to top left, rgba(98, 109, 209, 0.2), transparent);
+
+}
+
+.overlay .container > .team .card > .name {
+    margin: 0;
+    margin-top: 1.5vw;
+
+    color: white;
+    font-size: 1.1vw;
+    font-family: Righteous;
+}
+
+.overlay .container > .team .card > .description {
+    margin: 0;
+    margin-top: .5vw;
+
+    color: rgba(255, 255, 255, .7);
+    font-size: .7vw;
+    font-family: Poppins;
+}
+
+.overlay .container > .team .card > .avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5vw;
+
+    width: 5vw;
+    height: 5vw;
+
+    border-radius: 5vw;
+    object-fit: cover;
+}
+
+
+
+.overlay .container > .team .previous {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    margin: -20.49vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: -9.9vw;
+    margin-bottom: -34vw;
+    background: url(../media/icons/chevron.png);
+    background-size: cover;
+    opacity: .5;
+    transition: opacity .15s;
+}
+.overlay .container > .team .next {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    margin: 14.51vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 18.1vw;
+    margin-bottom: 1vw;
+    background: url(../media/icons/chevron.png);
+    background-size: cover;
+    opacity: .5;
+    transition: opacity .15s;
+}
+
+.overlay .container > .team .previous:hover,
+.overlay .container > .team .next:hover {
+    opacity: 1.0;
+}
+
+.overlay .container > .team .next {
+    transform: rotate(180deg);
+}
+
+
+
+/* social */
+
+.overlay .container > .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 73%;
+    margin-left: -73vw;
+    margin-bottom: -6vw;
+}
+
+.overlay .container > .social .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 33.4vw;
+    height: 16.5vw;
+    overflow-x: hidden;
+}
+
+.overlay .container > .social .innercards {
+    display: flex;
+    width: 83%;
+    height: 15.5vw;
+    transform: translate3d(calc(0% - .7vw), 0, 0);
+
+    transition: transform .5s;
+}
+
+.overlay .container > .social .pages {
+    display: flex;
+    margin-top: -.9vw;
+
+}
+
+.overlay .container > .social .pages > div {
+    width: .7vw;
+    height: .4vw;
+
+    margin: 0.15vw;
+
+    border-radius: 1vw;
+    background: rgba(149, 156, 207, 0.5);
+    transition: all .15s;
+}
+
+.overlay .container > .social .pages > div.active {
+    background: white;
+    transform: scale(1.2);
+}
+
+.overlay .container > .social .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    width: 9vw;
+    height: 65%;
+
+    margin: 0.2vw;
+
+    border-radius: 1.2vw;
+    background: linear-gradient(to top left, rgba(98, 109, 209, 0.2), transparent);
+
+}
+
+.overlay .container > .social .card > .avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5vw;
+
+    width:6vw;
+
+    border-radius: 5vw;
+    object-fit: cover;
+}
+
+.overlay .container > .social .card > .name {
+    margin: 0;
+    margin-top: 0.1vw;
+
+    color: white;
+    font-size: 1.1vw;
+    font-family: Righteous;
+}
+
+.overlay .container > .social .card::after {
+    content: "";
+    position: absolute;
+    bottom: -.15vw;
+    width: 50%;
+    height: .3vw;
+
+    border-radius: 1vw;
+    background: var(--color);
+    box-shadow: 0 0 .5vw 0 var(--color);
+}
+
+
+
+.overlay .container > .load-bar {
+    position: relative;
+    display: flex;
+    width: 31.5vw;
+    height: 3.3vw;
+    bottom: 8.5vw;
+    right: 20.5vw;
+    border-radius: 1.2vw;
+    background: linear-gradient(to top left, rgba(98, 109, 209, 0.2), transparent);
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+.overlay .container > .load-bar .load-bar-l {
+    display: inline-block;
+    width: 28.5vw;
+    height: 1.51vw;
+    background: rgba(84, 130, 255, 0.07);
+    -webkit-mask: linear-gradient(90deg,#000 79%,#0000 0) 0/6%;
+  }
+  
+  .overlay .container > .load-bar .load-bar-l .load-bar-y {
+    
+    height: 100%;
+    /* animation: load 30s normal forwards; */
+    width: 60%;
+    background: #AEE8F5;
+    box-shadow: 0px 0px 100px rgba(187, 196, 226, 0.25),
+    inset 0px 20px 4px rgba(50, 59, 157, 0.25);
+    
+  }
+
+
+.overlay .container > .load-bar::after {
+    content: "";
+    position: absolute;
+    top: 3.05vw;
+    right: 6.3vw;
+    width: 62%;
+    height: 0.3vw;
+    border-radius: 1vw;
+    background: #AEE8F5;
+    box-shadow: 0 0 0.5vw 0 #AEE8F5;
+    
+}
+
+.overlay .container > .titls {
+    position: relative;
+    user-select: none;
+}
+
+.overlay .container > .titls .maintext {
+    position: relative;
+    display: flex;
+    bottom: 11.5vw;
+    right: -4.5vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4.1vw;
+    font-family: Righteous;
+}
+
+.overlay .container > .titls .mintext {
+    position: relative;
+    display: flex;
+    bottom: 20.5vw;
+    right: -13.5vw;
+    justify-content: center;
+    align-items: center;
+    color: #AEE8F5;
+    font-size: 4.1vw;
+    font-family: Righteous;
+}
+
+.overlay .container > .titls .mintext .small {
+    position: relative;
+    right: -0.5vw;
+    color: white;
+}
+
+/* Hide overlay */
+
+.overlay > .hideoverlay {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    right: 88%;
+
+    user-select: none;
+}
+
+.overlay > .hideoverlay .bind {
+    width: 1vw;
+    height: 1vw;
+    border-radius: .2vw;
+    background: white;
+
+    margin-right: .4vw;
+
+    line-height: 1vw;
+    text-align: center;
+    color: black;
+    font-size: .7vw;
+    font-family: PoppinsSemibold;
+}
+
+.overlay > .hideoverlay {
+    line-height: 1vw;
+    color: rgba(255, 255, 255, .7);
+    font-size: .6vw;
+    font-family: Poppins;
+}

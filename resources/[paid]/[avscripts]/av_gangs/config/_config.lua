@@ -40,4 +40,9 @@ Gangs.Sprays = { -- Only registered gangs will be able to use spray and spray re
         blipColor = 27, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
         ped = {"g_f_y_ballas_01", "g_m_y_ballaeast_01"} -- https://docs.fivem.net/docs/game-references/ped-models/
     },
+    ["thelostmc"] = { -- Gang name
+        Grafiti = "spray_lostmc", -- Graffiti model name (without .ydr)
+        blipColor = 85, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
+        ped = {"g_m_y_lost_02", "g_m_y_lost_01"} -- https://docs.fivem.net/docs/game-references/ped-models/
+    },
 }

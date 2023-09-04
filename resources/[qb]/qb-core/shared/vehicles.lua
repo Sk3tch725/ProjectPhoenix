@@ -6002,10 +6002,10 @@ QBShared.Vehicles = {
     ['name'] = 'Harley',
     ['brand'] = 'Bike',
     ['model'] = 'rudiharley',
-    ['price'] = 450000,
+    ['price'] = 18000,
     ['category'] = 'motorcycles',
     ['hash'] = `rudiharley`,
-    ['shop'] = 'tuner',
+    ['shop'] = 'lostmc',
 },
 ['rr14'] = {
     ['name'] = 'Range Rover',

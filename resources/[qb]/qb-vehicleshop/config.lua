@@ -326,6 +326,37 @@ Config.Shops = {
             },
         },
     },
+    ['lostmc'] = {
+        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Zone'] = {
+            ['Shape'] = {--polygon that surrounds the shop
+            vector2(983.80529785156, -136.78785705566),
+            vector2(982.48126220703, -139.3611907959),
+            vector2(978.80920410156, -136.85020446777),
+            vector2(979.78009033203, -134.9733581543)
+            },
+            ['minZ'] = 74.0, -- min height of the shop zone
+            ['maxZ'] = 78.0, -- max height of the shop zone
+            ['size'] = 2.75 -- size of the vehicles zones
+        },
+        ['Job'] = 'none', -- Name of job or none
+        ['ShopLabel'] = 'Lost', -- Blip name
+        ['showBlip'] = false, -- true or false
+        ['blipSprite'] = 326, -- Blip sprite
+        ['blipColor'] = 3, -- Blip color
+        ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
+        ['Location'] = vector3(163.27218, -3043.269, 5.0962305), -- Blip Location
+        ['ReturnLocation'] = vector4(163.27218, -3043.269, 5.0962305, 90.63742), -- Location to return vehicle, only enables if the vehicleshop has a job owned
+        ['VehicleSpawn'] = vector4(983.76, -132.88, 74.06, 318.66), -- Spawn location when vehicle is bought
+        ['TestDriveSpawn'] = vector4(983.76, -132.88, 74.06, 318.66), -- Spawn location for test drive
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(981.3, -137.77, 74.06, 225.97), -- where the vehicle will spawn on display
+                defaultVehicle = 'rudiharley', -- Default display vehicle
+                chosenVehicle = 'rudiharley', -- Same as default but is dynamically changed when swapping vehicles
+            },
+        },
+    },
 }
 
 
